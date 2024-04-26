@@ -1,0 +1,43 @@
+name: Build and Deploy to S3
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-and-upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v2
+      
+      - name: Setup Unity
+        uses: game-ci/unity-builder@v2
+        with:
+          unityVersion: "2021.3.5f1"
+          targetPlatform: Android
+          androidKeystoreName: my-release-key.keystore
+          androidKeystoreBase64: ${{ secrets.KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
+
+      - name: Set up JDK 11
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+          distribution: 'adopt'
+      
+      - name: Activate Unity License
+        uses: game-ci/unity-activate@v2
+        env:
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+
+      - name: Build APK
+        run: |
+          mkdir -p builds/android
+          # Add your build commands here
+          # Example: ./gradlew assembleRelease
