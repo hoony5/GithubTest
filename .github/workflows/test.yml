@@ -20,15 +20,6 @@ jobs:
 
       - name: Switch to main branch
         run: git checkout master
-
-      - name: Setup JDK
-        uses: actions/setup-java@v2
-        with:
-          java-version: '11'
-          distribution: 'adopt'
-
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
       
       # Cache Unity Libraries and Build Folders
       - name: Cache Unity Libraries and Build Files
@@ -53,11 +44,6 @@ jobs:
         with:
           unityVersion: "2022.3.15f1"
           targetPlatform: Android
-          androidKeystoreName: my-release-key.keystore
-          androidKeystoreBase64: ${{ secrets.KEYSTORE_BASE64 }}
-          androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
-          androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
-          androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
 
       # Output
       - uses: actions/upload-artifact@v4
