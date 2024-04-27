@@ -1,4 +1,4 @@
-name: Build and Deploy to S3
+name: Automated Build ⭐
 
 on:
   push:
@@ -8,19 +8,42 @@ on:
 jobs:
   build-and-upload:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
             
-      - name: Activate Unity License
-        uses: game-ci/unity-activate@v2
+      # Docker Disk Space Usage
+      - name: Log Docker Disk Usage
+        if: always()
+        run: |
+          docker system df
+          docker info
+
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
+
+      # Cache Unity Libraries and Build Folders
+      - name: Cache Unity Libraries and Build Files
+        uses: actions/cache@v4
+        with:
+          path: |
+            Library
+            Temp
+            obj
+            Builds
+          key: ${{ runner.os }}-build-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            ${{ runner.os }}-build-
+
+      # Build
+      - name: Build project
+        uses: game-ci/unity-builder@v4
         env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
-
-      - name: Setup Unity Android Build Settings
-        uses: game-ci/unity-builder@v2
         with:
           unityVersion: "2022.3.5f1"
           targetPlatform: Android
@@ -29,18 +52,17 @@ jobs:
           androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
           androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
           androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
-        env:
-          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
-          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
-          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
 
-      - name: Set up JDK 11
-        uses: actions/setup-java@v2
+      # Output
+      - uses: actions/upload-artifact@v4
         with:
-          java-version: '11'
-          distribution: 'adopt'
-      - name: Build APK
-        run: |
-          mkdir -p builds/android
-          # Add your build commands here
-          unity-editor -batchmode -nographics -silent-crashes -logFile -projectPath "$(pwd)" -buildTarget Android -customBuildTarget Android -customBuildName myGame -executeMethod BuildScript.BuildAndroid -quit
+          name: Android Build
+          path: build
+
+      # Cleanup Unused Docker Images
+      - name: Docker Cleanup
+        run: docker system prune -af
+
+      # Additional Logs for Debugging
+      - name: Output Build Directory Contents
+        run: ls -alh build/
