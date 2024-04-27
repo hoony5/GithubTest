@@ -10,13 +10,6 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      # Docker Disk Space Usage
-      - name: Log Docker Disk Usage
-        if: always()
-        run: |
-          docker system df
-          docker info
-
       # Checkout
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -49,7 +42,6 @@ jobs:
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
-          unityVersion: "2022.3.15f1"
           targetPlatform: Android
           androidKeystoreName: my-release-key.keystore
           androidKeystoreBase64: ${{ secrets.KEYSTORE_BASE64 }}
@@ -62,11 +54,3 @@ jobs:
         with:
           name: Android Build
           path: build
-
-      # Cleanup Unused Docker Images
-      - name: Docker Cleanup
-        run: docker system prune -af
-
-      # Additional Logs for Debugging
-      - name: Output Build Directory Contents
-        run: ls -alh build/
