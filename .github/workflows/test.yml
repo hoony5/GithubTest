@@ -26,8 +26,6 @@ jobs:
         with:
           java-version: '11'
           distribution: 'adopt'
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v2
       
       # Cache Unity Libraries and Build Folders
       - name: Cache Unity Libraries and Build Files
