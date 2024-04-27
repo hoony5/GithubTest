@@ -30,7 +30,7 @@ jobs:
         run: |
           df -h
           sudo swapoff -a
-          sudo rm -rf /swapfile /usr/share/dotnet /usr/local/share/boost $AGENT_TOOLSDIRECTORY /usr/local/lib/android /opt/ghc
+          sudo rm -rf /swapfile
           sudo apt clean
           docker rmi $(docker image ls -aq)
           df -h
@@ -41,6 +41,9 @@ jobs:
           distribution: 'adopt'
           java-version: '11'
           
+      - name: Setup Android SDK
+        uses: android-actions/setup-android@v2
+      
        # Build
       - name: Build project
         uses: game-ci/unity-builder@v4
