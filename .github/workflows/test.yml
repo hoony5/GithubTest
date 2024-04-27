@@ -2,8 +2,6 @@ name: Automated Build ⭐
 
 on:
   push:
-    branches:
-      - main
     tags:
       - 'v*'
 
@@ -28,7 +26,7 @@ jobs:
           ref: ${{ github.ref }}
 
       - name: Switch to main branch
-        run: git checkout main
+        run: git checkout master
         
       # Cache Unity Libraries and Build Folders
       - name: Cache Unity Libraries and Build Files
