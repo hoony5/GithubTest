@@ -47,9 +47,10 @@ jobs:
         with:
           ndk-version: r25c
           link-to-sdk: true
-      
+          
       - name: Build project
-        uses: game-ci/unity-builder@v4
+        uses: game-ci/unity-builder@v4  
+        id: myBuildStep
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
           UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
@@ -63,7 +64,8 @@ jobs:
           androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
           androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
           androidTargetSdkVersion: AndroidApiLevel29
-
+      - run: echo 'Build Step Exit Code: ${{ steps.myBuildStep.outputs.engineExitCode }}'
+        
       - uses: actions/upload-artifact@v4
         with:
           name: Android Build
