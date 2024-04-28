@@ -42,7 +42,7 @@ jobs:
         uses: android-actions/setup-android@v3
 
       - name : Setup Andorid NDK With SDK
-      - uses: nttld/setup-ndk@v1
+        uses: nttld/setup-ndk@v1
         id: setup-ndk
         with:
           ndk-version: r25c
