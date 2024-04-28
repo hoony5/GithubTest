@@ -37,7 +37,6 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-      - run: java HelloWorldApp.java
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
@@ -48,7 +47,6 @@ jobs:
         with:
           ndk-version: r25c
           link-to-sdk: true
-      - run: ./gradlew build
       
       - name: Build project
         uses: game-ci/unity-builder@v4
