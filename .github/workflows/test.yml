@@ -31,22 +31,6 @@ jobs:
           sudo apt clean
           docker rmi $(docker image ls -aq)
           df -h
-
-      - name: Set up JDK 17
-        uses: actions/setup-java@v3
-        with:
-          java-version: '17'
-          distribution: 'temurin'
-
-      - name: Setup Android SDK
-        uses: android-actions/setup-android@v3
-
-      - name : Setup Andorid NDK With SDK
-        uses: nttld/setup-ndk@v1
-        id: setup-ndk
-        with:
-          ndk-version: r25c
-          link-to-sdk: true
           
       - name: Build project
         uses: game-ci/unity-builder@v4  
@@ -64,7 +48,6 @@ jobs:
           androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
           androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
           androidTargetSdkVersion: AndroidApiLevel29
-      - run: echo 'Build Step Exit Code: ${{ steps.myBuildStep.outputs.engineExitCode }}'
         
       - uses: actions/upload-artifact@v4
         with:
