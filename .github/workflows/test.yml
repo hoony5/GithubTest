@@ -4,7 +4,7 @@ on: [push]
 
 jobs:
   build:
-    name: Build for ${{ matrix.targetPlatform }}
+    name: Build for android
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -37,10 +37,19 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
+      - run: java HelloWorldApp.java
 
       - name: Setup Android SDK
         uses: android-actions/setup-android@v3
 
+      - name : Setup Andorid NDK With SDK
+      - uses: nttld/setup-ndk@v1
+        id: setup-ndk
+        with:
+          ndk-version: r25c
+          link-to-sdk: true
+      - run: ./gradlew build
+      
       - name: Build project
         uses: game-ci/unity-builder@v4
         env:
@@ -55,6 +64,7 @@ jobs:
           androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
           androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
           androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
+          androidTargetSdkVersion: AndroidApiLevel29
 
       - uses: actions/upload-artifact@v4
         with:
