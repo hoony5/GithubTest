@@ -1,38 +1,55 @@
-name: Unity Android Build
+name: Automated Build ⭐
 
 on:
-  push:
-    tags:
-      - '*'
+  push: # Master 브랜치에 Push가 되면 빌드가 되도록 동작시킵니다.
+    branches: [ main ]
+  pull_request: # Pull request 시 빌드
+    branches: [ main ]
+  tag: # 태그가 생성되면 빌드가 되도록 동작시킵니다.
+    types: [ created ]
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
+  buildAndroid:
+    name: 📱 Android Build
+    runs-on: ubuntu-latest # 리눅스를 사용합니다.
+    
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v2
+      # Checkout
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          lfs: true
 
-    - name: Set up JDK 11
-      uses: actions/setup-java@v2
-      with:
-        java-version: '11'
+      # Cache (캐시파일을 생성하여 다음 빌드시 더 빠르게 빌드를 할 수 있도록 해줍니다.)
+      - uses: actions/cache@v4
+        with:
+          path: Library
+          key: Library-${{ hashFiles('Assets/**', 'Packages/**', 'ProjectSettings/**') }}
+          restore-keys: |
+            Library-
 
-    - name: Cache Unity
-      uses: actions/cache@v2
-      with:
-        path: |
-          ~/.cache/unity
-          ~/.local/share/unity
-        key: unity-${{ runner.os }}-${{ hashFiles('**/Editor/BuildScript.cs') }}
-        restore-keys: |
-          unity-${{ runner.os }}-
+      # 빌드 전 사용 용량 정리
+      - name: Clean up disk space
+        run: sudo rm -rf /usr/local/lib/android
 
-    - name: Set up Unity
-      uses: game-ci/unity-builder@v4
-      with:
-        version: 2021.1.11f1
+      # Build
+      - name: Build project
+        uses: game-ci/unity-builder@v4
+        env:
+          UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
+          UNITY_EMAIL: ${{ secrets.UNITY_EMAIL }}
+          UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
+        with:
+          targetPlatform: Android
+          androidKeystoreName: ${{ secrets.ANDROID_KEYSTORE_NAME }}
+          androidKeystoreBase64: ${{ secrets.KEYSTORE_BASE64 }}
+          androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
+          androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
+          androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
+          customImage: game-ci/unity-builder:android-2020.1.17f1-2021-01-14
 
-    - name: Build project
-      run: |
-        /opt/unity/Editor/Unity -projectPath . -quit -batchmode -executeMethod BuildScript.PerformBuild -logFile /dev/stdout
+      # Output
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Android Build
+          path: build
