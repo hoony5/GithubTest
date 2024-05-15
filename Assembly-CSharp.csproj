@@ -12,7 +12,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{80109f7b-849a-7a85-4d89-56845dfea68a}</ProjectGuid>
+    <ProjectGuid>{1d448fe7-3784-e80b-eb9e-5fa9ed2e1278}</ProjectGuid>
     <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -26,7 +26,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\Bin\Debug\Assembly-CSharp\</OutputPath>
-    <DefineConstants>UNITY_2022_3_15;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_NATIVE_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_RUNTIME_PERMISSIONS;ENABLE_ENGINE_CODE_STRIPPING;ENABLE_ONSCREEN_KEYBOARD;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_ANDROID;TEXTCORE_1_0_OR_NEWER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;UNITY_CAN_SHOW_SPLASH_SCREEN;UNITY_HAS_GOOGLEVR;UNITY_HAS_TANGO;ENABLE_SPATIALTRACKING;ENABLE_ETC_COMPRESSION;PLATFORM_EXTENDS_VULKAN_DEVICE;PLATFORM_HAS_MULTIPLE_SWAPCHAINS;UNITY_ANDROID_SUPPORTS_SHADOWFILES;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;NET_STANDARD_2_0;NET_STANDARD;NET_STANDARD_2_1;NETSTANDARD;NETSTANDARD2_1;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <DefineConstants>UNITY_2022_3_15;UNITY_2022_3;UNITY_2022;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_4_OR_NEWER;UNITY_2019_1_OR_NEWER;UNITY_2019_2_OR_NEWER;UNITY_2019_3_OR_NEWER;UNITY_2019_4_OR_NEWER;UNITY_2020_1_OR_NEWER;UNITY_2020_2_OR_NEWER;UNITY_2020_3_OR_NEWER;UNITY_2021_1_OR_NEWER;UNITY_2021_2_OR_NEWER;UNITY_2021_3_OR_NEWER;UNITY_2022_1_OR_NEWER;UNITY_2022_2_OR_NEWER;UNITY_2022_3_OR_NEWER;PLATFORM_ARCH_64;UNITY_64;UNITY_INCLUDE_TESTS;ENABLE_AR;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EVENT_QUEUE;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_TEXTURE_STREAMING;ENABLE_VIRTUALTEXTURING;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_UNITYWEBREQUEST;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_EDITOR_GAME_SERVICES;ENABLE_UNITY_GAME_SERVICES_ANALYTICS_SUPPORT;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_GENERATE_NATIVE_PLUGINS_FOR_ASSEMBLIES_API;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;ENABLE_MANAGED_AUDIO_JOBS;ENABLE_MANAGED_UNITYTLS;INCLUDE_DYNAMIC_GI;ENABLE_SCRIPTING_GC_WBARRIERS;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_VIDEO;ENABLE_ACCELERATOR_CLIENT_DEBUGGING;ENABLE_NAVIGATION_PACKAGE_DEBUG_VISUALIZATION;ENABLE_NAVIGATION_HEIGHTMESH_RUNTIME_SUPPORT;ENABLE_NAVIGATION_UI_REQUIRES_PACKAGE;PLATFORM_STANDALONE;TEXTCORE_1_0_OR_NEWER;PLATFORM_STANDALONE_WIN;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_NVIDIA;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;PLATFORM_UPDATES_TIME_OUTSIDE_OF_PLAYER_LOOP;GFXDEVICE_WAITFOREVENT_MESSAGEPUMP;PLATFORM_INITIALIZES_MEMORY_MANAGER_EXPLICITLY;ENABLE_MONO;NET_4_6;NET_UNITY_4_8;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_DIRECTOR;ENABLE_LOCALIZATION;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_TILEMAP;ENABLE_TIMELINE;ENABLE_INPUT_SYSTEM;TEXTCORE_FONT_ENGINE_1_5_OR_NEWER;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169,0649</NoWarn>
@@ -515,6 +515,12 @@
      <Reference Include="UnityEngine.ClothModule">
      <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClothModule.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.ClusterInputModule">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterInputModule.dll</HintPath>
+     </Reference>
+     <Reference Include="UnityEngine.ClusterRendererModule">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ClusterRendererModule.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.ContentLoadModule">
      <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.ContentLoadModule.dll</HintPath>
      </Reference>
@@ -674,6 +680,9 @@
      <Reference Include="UnityEngine.VideoModule">
      <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.VideoModule.dll</HintPath>
      </Reference>
+     <Reference Include="UnityEngine.VirtualTexturingModule">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.VirtualTexturingModule.dll</HintPath>
+     </Reference>
      <Reference Include="UnityEngine.WindModule">
      <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\Managed\UnityEngine\UnityEngine.WindModule.dll</HintPath>
      </Reference>
@@ -743,544 +752,553 @@
      <Reference Include="Unity.Android.GradleProject">
      <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
      </Reference>
-     <Reference Include="netstandard">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\ref\2.1.0\netstandard.dll</HintPath>
-     </Reference>
-     <Reference Include="Microsoft.Win32.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\Microsoft.Win32.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.AppContext">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.AppContext.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Buffers">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Buffers.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Collections.Concurrent">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Concurrent.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Collections">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Collections.NonGeneric">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.NonGeneric.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Collections.Specialized">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Collections.Specialized.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ComponentModel">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ComponentModel.EventBasedAsync">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.EventBasedAsync.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ComponentModel.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ComponentModel.TypeConverter">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ComponentModel.TypeConverter.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Console">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Console.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Data.Common">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Data.Common.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.Contracts">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Contracts.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.Debug">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Debug.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.FileVersionInfo">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.FileVersionInfo.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.Process">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Process.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.StackTrace">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.StackTrace.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.TextWriterTraceListener">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.Tools">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tools.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.TraceSource">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.TraceSource.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Diagnostics.Tracing">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Diagnostics.Tracing.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Drawing.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Drawing.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Dynamic.Runtime">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Dynamic.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Globalization.Calendars">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Calendars.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Globalization">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Globalization.Extensions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Globalization.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.Compression">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.Compression.ZipFile">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Compression.ZipFile.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.FileSystem">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.FileSystem.DriveInfo">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.DriveInfo.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.FileSystem.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.FileSystem.Watcher">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.FileSystem.Watcher.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.IsolatedStorage">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.IsolatedStorage.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.MemoryMappedFiles">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.MemoryMappedFiles.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.Pipes">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.Pipes.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.UnmanagedMemoryStream">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.IO.UnmanagedMemoryStream.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Linq">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Linq.Expressions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Expressions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Linq.Parallel">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Parallel.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Linq.Queryable">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Linq.Queryable.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Memory">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Memory.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.Http">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Http.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.NameResolution">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NameResolution.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.NetworkInformation">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.NetworkInformation.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.Ping">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Ping.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.Requests">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Requests.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.Security">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Security.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.Sockets">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.Sockets.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.WebHeaderCollection">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebHeaderCollection.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.WebSockets.Client">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.Client.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net.WebSockets">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Net.WebSockets.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Numerics.Vectors">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Numerics.Vectors.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ObjectModel">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ObjectModel.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection.DispatchProxy">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.DispatchProxy.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection.Emit">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection.Emit.ILGeneration">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.ILGeneration.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection.Emit.Lightweight">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Emit.Lightweight.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection.Extensions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Reflection.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Reflection.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Resources.Reader">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Reader.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Resources.ResourceManager">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.ResourceManager.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Resources.Writer">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Resources.Writer.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.CompilerServices.VisualC">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.CompilerServices.VisualC.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Extensions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Handles">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Handles.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.InteropServices">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Numerics">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Numerics.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Serialization.Formatters">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Formatters.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Serialization.Json">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Json.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Serialization.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.Serialization.Xml">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Runtime.Serialization.Xml.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Claims">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Claims.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Cryptography.Algorithms">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Algorithms.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Cryptography.Csp">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Csp.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Cryptography.Encoding">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Encoding.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Cryptography.Primitives">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.Primitives.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Cryptography.X509Certificates">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Cryptography.X509Certificates.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.Principal">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.Principal.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Security.SecureString">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Security.SecureString.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Text.Encoding">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Text.Encoding.Extensions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.Encoding.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Text.RegularExpressions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Text.RegularExpressions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Overlapped">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Overlapped.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Tasks">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Tasks.Extensions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Extensions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Tasks.Parallel">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Tasks.Parallel.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Thread">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Thread.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.ThreadPool">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.ThreadPool.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Threading.Timer">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Threading.Timer.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ValueTuple">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.ValueTuple.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Xml.ReaderWriter">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.ReaderWriter.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Xml.XDocument">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XDocument.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Xml.XmlDocument">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlDocument.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Xml.XmlSerializer">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XmlSerializer.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Xml.XPath">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Xml.XPath.XDocument">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netstandard\System.Xml.XPath.XDocument.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\Extensions\2.0.0\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
-     </Reference>
      <Reference Include="mscorlib">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\mscorlib.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ComponentModel.Composition">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ComponentModel.Composition.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Core">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Core.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Data">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Data.dll</HintPath>
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\mscorlib.dll</HintPath>
      </Reference>
      <Reference Include="System">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.dll</HintPath>
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.dll</HintPath>
      </Reference>
-     <Reference Include="System.Drawing">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Drawing.dll</HintPath>
-     </Reference>
-     <Reference Include="System.IO.Compression.FileSystem">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.IO.Compression.FileSystem.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Net">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Net.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Numerics">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Numerics.dll</HintPath>
+     <Reference Include="System.Core">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Core.dll</HintPath>
      </Reference>
      <Reference Include="System.Runtime.Serialization">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Runtime.Serialization.dll</HintPath>
-     </Reference>
-     <Reference Include="System.ServiceModel.Web">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.ServiceModel.Web.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Transactions">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Transactions.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Web">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Web.dll</HintPath>
-     </Reference>
-     <Reference Include="System.Windows">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Windows.dll</HintPath>
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Runtime.Serialization.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.dll</HintPath>
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.dll</HintPath>
      </Reference>
      <Reference Include="System.Xml.Linq">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Linq.dll</HintPath>
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Xml.Linq.dll</HintPath>
      </Reference>
-     <Reference Include="System.Xml.Serialization">
-     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
+     <Reference Include="System.Numerics">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Numerics.Vectors">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Numerics.Vectors.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Net.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.CSharp">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Microsoft.CSharp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.DataSetExtensions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Data.DataSetExtensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Drawing.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.FileSystem">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.IO.Compression.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Composition">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.ComponentModel.Composition.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Transactions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\System.Transactions.dll</HintPath>
+     </Reference>
+     <Reference Include="Microsoft.Win32.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\Microsoft.Win32.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="netstandard">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\netstandard.dll</HintPath>
+     </Reference>
+     <Reference Include="System.AppContext">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.AppContext.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Buffers">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Buffers.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Concurrent">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Concurrent.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.NonGeneric">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.NonGeneric.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Collections.Specialized">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Collections.Specialized.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Annotations">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Annotations.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.EventBasedAsync">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.EventBasedAsync.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ComponentModel.TypeConverter">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ComponentModel.TypeConverter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Console">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Console.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Data.Common">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Data.Common.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Contracts">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Contracts.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Debug">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Debug.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.FileVersionInfo">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.FileVersionInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Process">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Process.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.StackTrace">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.StackTrace.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TextWriterTraceListener">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.Tools">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.Tools.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Diagnostics.TraceSource">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Diagnostics.TraceSource.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Drawing.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Drawing.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Dynamic.Runtime">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Dynamic.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Calendars">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Calendars.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Globalization.Extensions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Globalization.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Compression.ZipFile">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Compression.ZipFile.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.DriveInfo">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.DriveInfo.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.FileSystem.Watcher">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.FileSystem.Watcher.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.IsolatedStorage">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.IsolatedStorage.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.MemoryMappedFiles">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.MemoryMappedFiles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.Pipes">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.Pipes.dll</HintPath>
+     </Reference>
+     <Reference Include="System.IO.UnmanagedMemoryStream">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.IO.UnmanagedMemoryStream.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Expressions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Expressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Parallel">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Linq.Queryable">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Linq.Queryable.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Memory">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Memory.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Http.Rtc">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Http.Rtc.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NameResolution">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NameResolution.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.NetworkInformation">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.NetworkInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Ping">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Ping.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Requests">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Requests.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Security">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.Sockets">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.Sockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebHeaderCollection">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebHeaderCollection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets.Client">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.Client.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Net.WebSockets">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Net.WebSockets.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ObjectModel">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ObjectModel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.DispatchProxy">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.DispatchProxy.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.ILGeneration">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.ILGeneration.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Emit.Lightweight">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Emit.Lightweight.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Extensions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Reflection.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Reflection.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Reader">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Reader.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.ResourceManager">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.ResourceManager.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Resources.Writer">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Resources.Writer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.CompilerServices.VisualC">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.CompilerServices.VisualC.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Extensions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Handles">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Handles.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Numerics">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Numerics.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Formatters">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Formatters.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Json">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Json.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Runtime.Serialization.Xml">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Runtime.Serialization.Xml.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Claims">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Claims.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Algorithms">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Algorithms.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Csp">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Csp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Encoding">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Cryptography.X509Certificates">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Cryptography.X509Certificates.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.Principal">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.Principal.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Security.SecureString">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Security.SecureString.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Duplex">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Duplex.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Http">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Http.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.NetTcp">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.NetTcp.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Primitives">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Primitives.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ServiceModel.Security">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ServiceModel.Security.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.Encoding.Extensions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.Encoding.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Text.RegularExpressions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Text.RegularExpressions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Overlapped">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Overlapped.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Extensions">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Extensions.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Tasks.Parallel">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Tasks.Parallel.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Thread">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Thread.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.ThreadPool">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.ThreadPool.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Threading.Timer">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Threading.Timer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.ValueTuple">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.ValueTuple.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.ReaderWriter">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.ReaderWriter.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XDocument">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlDocument">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlDocument.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XmlSerializer">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XmlSerializer.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.dll</HintPath>
+     </Reference>
+     <Reference Include="System.Xml.XPath.XDocument">
+     <HintPath>F:\UnityEditor\2022.3.15f1\Editor\Data\UnityReferenceAssemblies\unity-4.8-api\Facades\System.Xml.XPath.XDocument.dll</HintPath>
      </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.MemoryProfiler.csproj">
-      <Project>{40f02cc6-04dd-4c83-b5d6-97691e77a0b9}</Project>
+      <Project>{b8201da6-c013-01bf-3b7b-802be4aca6b0}</Project>
       <Name>Unity.MemoryProfiler</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.Editor.csproj">
-      <Project>{e945ca2f-cd24-5594-14f7-02ca6d2814ec}</Project>
+      <Project>{3440df6a-f7d8-7ae8-128c-f4b7dc8a877f}</Project>
       <Name>Unity.Recorder.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEditorBridge.007.csproj">
-      <Project>{6bd8b5cf-7133-4061-f5b0-73ba61ba5b06}</Project>
+      <Project>{cb3afdaf-2940-109a-9ea3-b92efae4cb54}</Project>
       <Name>Unity.InternalAPIEditorBridge.007</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.csproj">
-      <Project>{3b0a2d0e-db58-7c37-ba97-c381d13a5fea}</Project>
+      <Project>{42132e78-e7af-15d8-a553-fa52b49c0323}</Project>
       <Name>Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.EditorCoroutines.Editor.csproj">
-      <Project>{00e3fd36-5c98-88f4-442b-e895e5c6ff2d}</Project>
+      <Project>{a8ab134a-b8a0-037c-afe2-36da27ec7dfe}</Project>
       <Name>Unity.EditorCoroutines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InternalAPIEngineBridge.007.csproj">
-      <Project>{b1bbe6fb-e6a3-d45c-866a-3498ee2d38be}</Project>
+      <Project>{b839241c-75aa-8bf5-c38e-2b334061820b}</Project>
       <Name>Unity.InternalAPIEngineBridge.007</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.MemoryProfiler.Editor.MemoryProfilerModule.csproj">
-      <Project>{73abb9d8-90ae-ba42-d72d-2a08bcce66c4}</Project>
+      <Project>{384e602c-50d5-1a68-1eed-01f9667a4340}</Project>
       <Name>Unity.MemoryProfiler.Editor.MemoryProfilerModule</Name>
     </ProjectReference>
     <ProjectReference Include="com.unity.cinemachine.editor.csproj">
-      <Project>{55d395f0-b8d8-4044-cdc6-c9fe64bd2e83}</Project>
+      <Project>{e1b157a7-e172-ca83-187c-2a595ba4c9db}</Project>
       <Name>com.unity.cinemachine.editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Runtime.csproj">
-      <Project>{d04b0808-6dfd-bbd5-fe21-dae6b8cf5cd1}</Project>
+      <Project>{f57b3371-af5e-2798-7ef6-53b1d6bb67e1}</Project>
       <Name>Unity.RenderPipelines.Universal.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.Editor.csproj">
-      <Project>{f694e883-d027-22b5-dd86-cc283dd94e02}</Project>
+      <Project>{2e5d63ad-78aa-1ebf-e730-8daf17c9bdf5}</Project>
       <Name>Unity.Burst.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Burst.csproj">
-      <Project>{6b3c55ce-f78b-8321-0049-a939d5e4fe0b}</Project>
+      <Project>{891e236a-cdf1-dc36-43d0-782b3f761c12}</Project>
       <Name>Unity.Burst</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.PlasticSCM.Editor.csproj">
-      <Project>{ebc4f2dd-a179-c1f7-18c3-97421da2490b}</Project>
+      <Project>{16b2c919-ebc8-1a35-8924-a3067d83d48b}</Project>
       <Name>Unity.PlasticSCM.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.Editor.csproj">
-      <Project>{f2cfeff0-dac9-c5eb-6dbb-a4c284aa5658}</Project>
+      <Project>{a3f322e9-cda8-10dd-8029-a35bd9bdd88c}</Project>
       <Name>Unity.Timeline.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.ShaderGraph.Editor.csproj">
-      <Project>{d6cb6267-5bf3-de6f-963c-026d3dfcf447}</Project>
+      <Project>{efd32394-026d-2a12-3031-8d9eb6a5459c}</Project>
       <Name>Unity.ShaderGraph.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.csproj">
-      <Project>{a78ac2f6-f934-3b68-084b-0cf76004dae9}</Project>
+      <Project>{9449b783-8645-cb69-fb96-15d4ba9d7bdf}</Project>
       <Name>Unity.Tutorials.Core</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.Base.csproj">
-      <Project>{fead575a-7feb-977f-7687-a155a5fe1c48}</Project>
+      <Project>{a23bce23-624a-6321-ff07-98c0e457ed6c}</Project>
       <Name>Unity.Recorder.Base</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VisualStudio.Editor.csproj">
-      <Project>{ab9793fd-0e4b-5c3d-135c-fb09bfebff6d}</Project>
+      <Project>{17aba881-3f2b-4a7d-4e81-4bf874480211}</Project>
       <Name>Unity.VisualStudio.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEditor.UI.csproj">
-      <Project>{834abdcf-856f-8acc-e330-b52d543360f7}</Project>
+      <Project>{7682fe00-6c74-4e65-2863-c61eebc3b253}</Project>
       <Name>UnityEditor.UI</Name>
     </ProjectReference>
     <ProjectReference Include="UnityEngine.UI.csproj">
-      <Project>{27c2ba7c-ec14-ba14-de18-18be290c3ce6}</Project>
+      <Project>{d4adb0a1-74c6-d085-901f-dd6c69ab7bce}</Project>
       <Name>UnityEngine.UI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Rider.Editor.csproj">
-      <Project>{cf5bdc00-5c7d-c9be-9303-fc1d2b65a20d}</Project>
+      <Project>{4e4fa3b8-04eb-1761-25d9-b617799c5bbb}</Project>
       <Name>Unity.Rider.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Runtime.csproj">
-      <Project>{0793120d-b6e4-26bc-7fef-801b372723a3}</Project>
+      <Project>{a45de8ff-8157-f169-6c59-8d74833d9af4}</Project>
       <Name>Unity.RenderPipelines.Core.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Config.Runtime.csproj">
-      <Project>{f60fe709-9be0-1b5e-43e4-5d7b07d856a0}</Project>
+      <Project>{fb877d0a-7510-3d46-fb6a-c90653040aec}</Project>
       <Name>Unity.RenderPipelines.Universal.Config.Runtime</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.Editor.csproj">
-      <Project>{6d810a8f-f4b0-4641-0d71-4a47da9eeda7}</Project>
+      <Project>{035c2795-1e16-6982-42b2-9e75a2d89032}</Project>
       <Name>Unity.RenderPipelines.Core.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.Editor.csproj">
-      <Project>{9757be26-3a14-99b1-9f01-ba2bcd1adac9}</Project>
+      <Project>{802db301-3c75-dcf4-4252-d723b0d22561}</Project>
       <Name>Unity.Mathematics.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipeline.Universal.ShaderLibrary.csproj">
-      <Project>{31e6c779-6da8-52ac-0132-cd644d29e790}</Project>
+      <Project>{da985845-26dd-2910-a708-33fec8197038}</Project>
       <Name>Unity.RenderPipeline.Universal.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Timeline.csproj">
-      <Project>{e99d3568-674e-9a97-fc69-6a5ebeb9a2a5}</Project>
+      <Project>{9b6e6367-69a9-191d-c841-f59f9afb6b60}</Project>
       <Name>Unity.Timeline</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.csproj">
-      <Project>{bafd6021-4177-05c3-b67b-fec53334ab83}</Project>
+      <Project>{06126188-8732-7b29-73b0-d14a4f1307a4}</Project>
       <Name>Unity.InputSystem</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.ForUI.csproj">
-      <Project>{8476a8f3-a063-8df3-260c-7cc74fa10ea4}</Project>
+      <Project>{9c48c5f2-f915-0efa-f2e3-9ce46f580fe0}</Project>
       <Name>Unity.InputSystem.ForUI</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Splines.Editor.csproj">
-      <Project>{52bac931-919c-aa6b-2eaa-8fda1636bf00}</Project>
+      <Project>{ec1946a0-06fa-f77d-400a-24a39af76531}</Project>
       <Name>Unity.Splines.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.MemoryProfiler.Editor.csproj">
-      <Project>{a3c0bfbc-f9cb-974f-cd97-c38c5a2df4fb}</Project>
+      <Project>{b98db231-34c0-c2c1-24ad-56e020c869d9}</Project>
       <Name>Unity.MemoryProfiler.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Core.ShaderLibrary.csproj">
-      <Project>{0a170070-79c1-6a46-46b5-71cee2908702}</Project>
+      <Project>{c6b2bf50-b07b-f3ab-aaea-171f5a872729}</Project>
       <Name>Unity.RenderPipelines.Core.ShaderLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="PPv2URPConverters.csproj">
-      <Project>{727c6847-a24e-3880-e460-b6c7f36b3f0c}</Project>
+      <Project>{e2b2848a-4dce-4e56-9274-aeb7de7d474e}</Project>
       <Name>PPv2URPConverters</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Mathematics.csproj">
-      <Project>{759c4188-6a6a-0084-5dc7-72060cae3b65}</Project>
+      <Project>{640773a9-936b-00e5-28f0-bca0bd821078}</Project>
       <Name>Unity.Mathematics</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Splines.csproj">
-      <Project>{db70ffc6-9924-3517-463f-e9c76c58cb84}</Project>
+      <Project>{1728e01e-4c85-c3e2-0873-5ccd045d7a1a}</Project>
       <Name>Unity.Splines</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.csproj">
-      <Project>{3bdadd60-eca5-d7d0-871b-328b2acd81d0}</Project>
+      <Project>{3a3e2521-8f3e-2a64-de31-eaf148b86d98}</Project>
       <Name>Unity.TextMeshPro</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Shaders.csproj">
-      <Project>{0bc6294c-9981-288a-652e-47d3236a5f71}</Project>
+      <Project>{442ace3d-e594-db9c-91a3-b15a790e153e}</Project>
       <Name>Unity.RenderPipelines.Universal.Shaders</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Recorder.csproj">
-      <Project>{60ac0095-574d-a6e7-32e1-c5a449659748}</Project>
+      <Project>{27fb8e96-e858-f292-6fc9-fc48c6ac535e}</Project>
       <Name>Unity.Recorder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.TextMeshPro.Editor.csproj">
-      <Project>{a4178e7c-c1c7-d46c-a1d8-a41ccb7efb5c}</Project>
+      <Project>{340be92a-2078-2ef2-2b1b-2b167329d784}</Project>
       <Name>Unity.TextMeshPro.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Searcher.Editor.csproj">
-      <Project>{ef258998-8cc8-a13f-965b-2d92a3c45887}</Project>
+      <Project>{f92372f6-f4a2-cc1f-f822-3ef37d2e49b4}</Project>
       <Name>Unity.Searcher.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.VSCode.Editor.csproj">
-      <Project>{53ef6e2e-46a7-34ec-1b04-523cf825e7eb}</Project>
+      <Project>{df8b0127-b58f-683e-825e-4c7298d7724b}</Project>
       <Name>Unity.VSCode.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Cinemachine.csproj">
-      <Project>{cb36d68c-4bde-0bdd-c1ac-3d81a528454c}</Project>
+      <Project>{dcd3b8a1-74fd-14e1-209f-9c48afe8e6d7}</Project>
       <Name>Cinemachine</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.RenderPipelines.Universal.Editor.csproj">
-      <Project>{23ccc700-c4c1-69bb-1464-7fdab23f53f8}</Project>
+      <Project>{f829eb48-955e-177b-7665-d66944eda55b}</Project>
       <Name>Unity.RenderPipelines.Universal.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.Tutorials.Core.Editor.csproj">
-      <Project>{5ddcf341-79ae-dac6-8757-89262ccd33f6}</Project>
+      <Project>{df57b286-9e33-92ea-d257-7f8fb1f12055}</Project>
       <Name>Unity.Tutorials.Core.Editor</Name>
     </ProjectReference>
   </ItemGroup>
