@@ -27,7 +27,16 @@ jobs:
 
       # 빌드 전 사용 용량 정리
       - name: Clean up disk space
-        run: sudo rm -rf /usr/local/lib/android
+        run: |
+          sudo apt-get clean
+          sudo rm -rf /usr/local/lib/android
+
+      # JDK 설치
+      - name: Set up JDK 11
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'temurin'
+          java-version: '11'
 
       # Build
       - name: Build project
@@ -43,7 +52,7 @@ jobs:
           androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
           androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
           androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
-          customImage: game-ci/unity-builder:android-2020.1.17f1-2021-01-14
+          customImage: game-ci/unity-builder:2.0.0
 
       # Output
       - uses: actions/upload-artifact@v4
