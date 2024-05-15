@@ -52,7 +52,6 @@ jobs:
           androidKeystorePass: ${{ secrets.KEYSTORE_PASS }}
           androidKeyaliasName: ${{ secrets.KEYALIAS_NAME }}
           androidKeyaliasPass: ${{ secrets.KEYALIAS_PASS }}
-          customImage: game-ci/unity-builder:2.0.0
 
       # Output
       - uses: actions/upload-artifact@v4
