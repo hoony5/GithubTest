@@ -2,8 +2,8 @@ name: Unity Android Build
 
 on:
   push:
-    branches:
-      - main
+    tags:
+      - '*'
 
 jobs:
   build:
